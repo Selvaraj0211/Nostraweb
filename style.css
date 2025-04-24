@@ -1,0 +1,135 @@
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  margin: 0px;
+  padding: 0px;
+  }
+
+  .offernav{
+    background-color: rgb(48, 44, 44); 
+    color: white;
+    text-align: center;
+    font-size: x-large;
+  }
+  .optionbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding: 3px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+  }
+  .optionbar_links{
+    display: flex;
+    justify-content: space-around; 
+    gap: 15px;
+    padding-right: 20px;
+  }
+  .optionbar_links a{
+    text-decoration: none;
+    color: black;
+  }
+  .optionbar_links a:hover{
+    text-decoration: underline;
+  }
+  .salebar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 15px;
+  }
+  
+  .salebarimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .salebarimg img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .salebar_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .salebarleft, .salebarright {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #000;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .salebarleft {
+    left: 20px;
+  }
+  
+  .salebarright {
+    right: 20px;
+  }
+  .brand{
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .brandlist{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+  }
+  .brandlistimg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-content: center; */
+    align-items: center;
+  }
+  .brandlistimg img{
+    width: 5vw;
+  }
+
+  .brandlistimg p{
+    font-size: large;
+
+  }
+.service_one{
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.service_two{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px ;
+}
